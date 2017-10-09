@@ -4,7 +4,7 @@
 
 subject	 - ID of 30 volunteers within an age bracket of 19-48 years. Range from 1 to 30..
 
-activity - Activity performed by the volumteers wearing the smartphone on the waist
+activity - Activity performed by the volumteers wearing the smartphone on the waist  
 					1 WALKING  
 					2 WALKING_UPSTAIRS  
 					3 WALKING_DOWNSTAIRS  
