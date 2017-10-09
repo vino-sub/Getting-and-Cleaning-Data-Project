@@ -72,8 +72,8 @@ For each record it is provided:
 
 68 combined Variable name used in the dataset:
 
-timeBodyAccelerometer-mean()-X
-timeBodyAccelerometer-mean()-Y
+timeBodyAccelerometer-mean()-X  
+timeBodyAccelerometer-mean()-Y  
 timeBodyAccelerometer-mean()-Z
 timeBodyAccelerometer-std()-X
 timeBodyAccelerometer-std()-Y
