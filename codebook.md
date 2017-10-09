@@ -5,12 +5,12 @@
 subject	 - ID of 30 volunteers within an age bracket of 19-48 years. Range from 1 to 30..
 
 activity - Activity performed by the volumteers wearing the smartphone on the waist
-					1 WALKING
-					2 WALKING_UPSTAIRS
-					3 WALKING_DOWNSTAIRS
-					4 SITTING
-					5 STANDING
-					6 LAYING
+					1 WALKING  
+					2 WALKING_UPSTAIRS  
+					3 WALKING_DOWNSTAIRS  
+					4 SITTING  
+					5 STANDING  
+					6 LAYING  
 
 ## Features
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
@@ -74,70 +74,70 @@ For each record it is provided:
 
 timeBodyAccelerometer-mean()-X  
 timeBodyAccelerometer-mean()-Y  
-timeBodyAccelerometer-mean()-Z
-timeBodyAccelerometer-std()-X
-timeBodyAccelerometer-std()-Y
-timeBodyAccelerometer-std()-Z
-timeGravityAccelerometer-mean()-X
-timeGravityAccelerometer-mean()-Y
-timeGravityAccelerometer-mean()-Z
-timeGravityAccelerometer-std()-X
-timeGravityAccelerometer-std()-Y
-timeGravityAccelerometer-std()-Z
-timeBodyAccelerometerJerk-mean()-X
-timeBodyAccelerometerJerk-mean()-Y
-timeBodyAccelerometerJerk-mean()-Z
-timeBodyAccelerometerJerk-std()-X
-timeBodyAccelerometerJerk-std()-Y
-timeBodyAccelerometerJerk-std()-Z
-timeBodyGyroscope-mean()-X
-timeBodyGyroscope-mean()-Y
-timeBodyGyroscope-mean()-Z
-timeBodyGyroscope-std()-X
-timeBodyGyroscope-std()-Y
-timeBodyGyroscope-std()-Z
-timeBodyGyroscopeJerk-mean()-X
-timeBodyGyroscopeJerk-mean()-Y
-timeBodyGyroscopeJerk-mean()-Z
-timeBodyGyroscopeJerk-std()-X
-timeBodyGyroscopeJerk-std()-Y
-timeBodyGyroscopeJerk-std()-Z
-timeBodyAccelerometerMagnitude-mean()
-timeBodyAccelerometerMagnitude-std()
-timeGravityAccelerometerMagnitude-mean()
-timeGravityAccelerometerMagnitude-std()
-timeBodyAccelerometerJerkMagnitude-mean()
-timeBodyAccelerometerJerkMagnitude-std()
-timeBodyGyroscopeMagnitude-mean()
-timeBodyGyroscopeMagnitude-std()
-timeBodyGyroscopeJerkMagnitude-mean()
-timeBodyGyroscopeJerkMagnitude-std()
-frequencyBodyAccelerometer-mean()-X
-frequencyBodyAccelerometer-mean()-Y
-frequencyBodyAccelerometer-mean()-Z
-frequencyBodyAccelerometer-std()-X
-frequencyBodyAccelerometer-std()-Y
-frequencyBodyAccelerometer-std()-Z
-frequencyBodyAccelerometerJerk-mean()-X
-frequencyBodyAccelerometerJerk-mean()-Y
-frequencyBodyAccelerometerJerk-mean()-Z
-frequencyBodyAccelerometerJerk-std()-X
-frequencyBodyAccelerometerJerk-std()-Y
-frequencyBodyAccelerometerJerk-std()-Z
-frequencyBodyGyroscope-mean()-X
-frequencyBodyGyroscope-mean()-Y
-frequencyBodyGyroscope-mean()-Z
-frequencyBodyGyroscope-std()-X
-frequencyBodyGyroscope-std()-Y
-frequencyBodyGyroscope-std()-Z
-frequencyBodyAccelerometerMagnitude-mean()
-frequencyBodyAccelerometerMagnitude-std()
-frequencyBodyAccelerometerJerkMagnitude-mean()
-frequencyBodyAccelerometerJerkMagnitude-std()
-frequencyBodyGyroscopeMagnitude-mean()
-frequencyBodyGyroscopeMagnitude-std()
-frequencyBodyGyroscopeJerkMagnitude-mean()
-frequencyBodyGyroscopeJerkMagnitude-std()
+timeBodyAccelerometer-mean()-Z  
+timeBodyAccelerometer-std()-X  
+timeBodyAccelerometer-std()-Y  
+timeBodyAccelerometer-std()-Z  
+timeGravityAccelerometer-mean()-X  
+timeGravityAccelerometer-mean()-Y  
+timeGravityAccelerometer-mean()-Z  
+timeGravityAccelerometer-std()-X  
+timeGravityAccelerometer-std()-Y  
+timeGravityAccelerometer-std()-Z  
+timeBodyAccelerometerJerk-mean()-X  
+timeBodyAccelerometerJerk-mean()-Y  
+timeBodyAccelerometerJerk-mean()-Z  
+timeBodyAccelerometerJerk-std()-X  
+timeBodyAccelerometerJerk-std()-Y  
+timeBodyAccelerometerJerk-std()-Z  
+timeBodyGyroscope-mean()-X  
+timeBodyGyroscope-mean()-Y  
+timeBodyGyroscope-mean()-Z  
+timeBodyGyroscope-std()-X  
+timeBodyGyroscope-std()-Y  
+timeBodyGyroscope-std()-Z  
+timeBodyGyroscopeJerk-mean()-X  
+timeBodyGyroscopeJerk-mean()-Y  
+timeBodyGyroscopeJerk-mean()-Z  
+timeBodyGyroscopeJerk-std()-X  
+timeBodyGyroscopeJerk-std()-Y  
+timeBodyGyroscopeJerk-std()-Z  
+timeBodyAccelerometerMagnitude-mean()  
+timeBodyAccelerometerMagnitude-std()  
+timeGravityAccelerometerMagnitude-mean()  
+timeGravityAccelerometerMagnitude-std()  
+timeBodyAccelerometerJerkMagnitude-mean()  
+timeBodyAccelerometerJerkMagnitude-std()  
+timeBodyGyroscopeMagnitude-mean()  
+timeBodyGyroscopeMagnitude-std()  
+timeBodyGyroscopeJerkMagnitude-mean()  
+timeBodyGyroscopeJerkMagnitude-std()  
+frequencyBodyAccelerometer-mean()-X  
+frequencyBodyAccelerometer-mean()-Y  
+frequencyBodyAccelerometer-mean()-Z  
+frequencyBodyAccelerometer-std()-X  
+frequencyBodyAccelerometer-std()-Y  
+frequencyBodyAccelerometer-std()-Z  
+frequencyBodyAccelerometerJerk-mean()-X  
+frequencyBodyAccelerometerJerk-mean()-Y  
+frequencyBodyAccelerometerJerk-mean()-Z  
+frequencyBodyAccelerometerJerk-std()-X  
+frequencyBodyAccelerometerJerk-std()-Y  
+frequencyBodyAccelerometerJerk-std()-Z  
+frequencyBodyGyroscope-mean()-X  
+frequencyBodyGyroscope-mean()-Y  
+frequencyBodyGyroscope-mean()-Z  
+frequencyBodyGyroscope-std()-X  
+frequencyBodyGyroscope-std()-Y  
+frequencyBodyGyroscope-std()-Z  
+frequencyBodyAccelerometerMagnitude-mean()  
+frequencyBodyAccelerometerMagnitude-std()  
+frequencyBodyAccelerometerJerkMagnitude-mean()  
+frequencyBodyAccelerometerJerkMagnitude-std()  
+frequencyBodyGyroscopeMagnitude-mean()  
+frequencyBodyGyroscopeMagnitude-std()  
+frequencyBodyGyroscopeJerkMagnitude-mean()  
+frequencyBodyGyroscopeJerkMagnitude-std()  
 
 - Features are normalized and bounded within [-1,1].
 
