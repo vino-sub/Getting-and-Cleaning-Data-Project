@@ -17,3 +17,22 @@ You should create one R script called run_analysis.R that does the following.
 3. Uses descriptive activity names to name the activities in the data set
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+## Working of Code
+
+1. Download the data from the URL provided  
+2. Unzip the file and store in the Project folder  
+3. The README.txt file will provide the details of the dataset. For this project only the below files will be used  
+    * test/subject_test.txt  
+    * test/X_test.txt  
+    * test/y_test.txt  
+    * train/subject_train.txt  
+    * train/X_train.txt  
+    * train/y_train.txt  
+4. Bifurcate the file based on Activity, Subject and Features and load them to variables  
+5. Bind the rows and then columns of all the three variables  
+6. Extract a subset of data of only "mean()" and "std()"  
+7. Factorize variable activity in the dataframe using descriptive activity names from "activity_labels.txt"  
+8. Names of Features to be changed to appropriate descriptive names  
+9. Created a second dataset as an ordered list in the order of subject, activity and features  
+10. Wrote this to "tidydata.txt" file  
